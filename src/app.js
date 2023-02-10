@@ -10,10 +10,8 @@ import { chatModel } from "./models/chat.model.js";
 dotenv.config();
 
 const PORT = process.env.PORT || 3000;
-const DB_USER = process.env.DB_USER;
-const DB_PASS = process.env.DB_PASS;
-const DB_NAME = process.env.DB_NAME;
-const STRING_CONNECTION = `mongodb+srv://${DB_USER}:${DB_PASS}@cluster0.cmqpdge.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`;
+
+const STRING_CONNECTION = `mongodb+srv://ifrank:focus1000@cluster0.cmqpdge.mongodb.net/coderhouse?retryWrites=true&w=majority`;
 
 const app = express();
 const messages = [];
