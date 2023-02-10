@@ -9,7 +9,9 @@ import cartRouter from "./routes/cart.router.js";
 import { chatModel } from "./models/chat.model.js";
 dotenv.config();
 
-const PORT = process.env.PORT || 3000;
+//const PORT = process.env.PORT || 3000;
+
+const PORT = 3000;
 
 const STRING_CONNECTION = `mongodb+srv://ifrank:focus1000@cluster0.cmqpdge.mongodb.net/coderhouse?retryWrites=true&w=majority`;
 
